@@ -1,0 +1,10 @@
+body {
+	background: linear-gradient(to top, #141e30, #243b55) no-repeat fixed center;
+	height: 100vh;
+}
+
+iframe {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
