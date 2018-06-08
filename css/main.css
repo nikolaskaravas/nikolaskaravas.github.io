@@ -9,30 +9,46 @@ body {
 .jumbotron {
   background: none;
   margin: 0;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+p {
+  padding: 10px 0;
+}
+.lead, .contact {
+  padding: 10px 0;
+}
+
+ul {
+  padding-top: 20px;
+  list-style-type: none;
 }
 
 h1 {
+
  margin: 0;
  letter-spacing: 6px;
  text-transform: uppercase;
 }
 
 h2 {
+  padding: 25px 0;
   text-transform: lowercase;
+  letter-spacing: 3px;
 }
 
-.fa-film {
-  float: left;
-
+.contact {
+  padding-left: 15px;
+  font-size: 20px;
 }
 
+.emai, .call {
+  padding: 25px 0;
+}
 
 iframe {
-  width: 300px;
-}
-
-h4 {
-  margin: 0;
+  width: 500px;
 }
 
 a {
@@ -43,13 +59,7 @@ a:hover {
   text-decoration: none;
 }
 
-
-.call {
-  float: right;
-  padding-right: 40%;
-}
-
-.contact {
-  font-size: 20px;
-  letter-spacing: 1px;
+footer {
+  text-align: right;
+  padding-bottom: 20px;
 }
