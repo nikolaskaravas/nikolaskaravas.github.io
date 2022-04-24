@@ -1,0 +1,80 @@
+body {
+  /* background: #f1f3f4; */
+	background: linear-gradient(to top, #d6dbe0, #f1f3f4) no-repeat fixed center;
+	height: 100vh;
+  color: #0a0a2c;
+  font-family: "Impact", sans-serif;
+}
+
+.jumbotron {
+  background: none;
+  margin: 0;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+h3.lead {
+	line-height: 1.6;
+}
+
+.lead, .contact {
+  padding: 10px 0;
+}
+
+ul {
+  padding-top: 20px;
+  list-style-type: none;
+}
+
+i {
+  color: #000000;
+  padding-right: 10px;
+	transition: transform 1s ease-out;
+}
+
+i:hover {
+	transform: translate(0, -10px);
+}
+
+h1 {
+
+ margin: 0;
+ letter-spacing: 6px;
+ text-transform: uppercase;
+}
+
+h2 {
+  padding: 25px 0;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+
+.contact {
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.email, .call, .resume {
+  padding: 25px 0;
+}
+
+iframe {
+  width: 500px;
+}
+
+a {
+  color: #b20000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+footer {
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+.video-container {
+  width: 100%;
+}
